@@ -8,7 +8,7 @@ describe('md5', function() {
 	})
 
 	it('support chinese', function() {
-		// echo -n 中国123のabc | md5sum
-		assert.deepEqual(md5('中国123のabc'), '2150a6840dbd6c6c3ae83a988226ff91')
+		// echo -n 中文123のabc | md5sum
+		assert.deepEqual(md5('中文123のabc'), '0fa86f501c35fbd40e1cc8d1f99a1c66')
 	})
 })
