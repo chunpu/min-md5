@@ -12,7 +12,7 @@ md5('中文123のabc')
 // => 0fa86f501c35fbd40e1cc8d1f99a1c66
 ```
 
-> return 32 length lowercase string
+> always return 32 length lowercase string
 
 return same value like `md5sum`
 

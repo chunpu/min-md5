@@ -13,7 +13,6 @@ min-md5
 [david-url]: https://david-dm.org/chunpu/min-md5
 
 [![Test coverage][coveralls-image]][coveralls-url]
-[![Gittip][gittip-image]][gittip-url]
 
 Min pure Javascript MD5 lib
 
@@ -38,7 +37,7 @@ md5('中文123のabc')
 // => 0fa86f501c35fbd40e1cc8d1f99a1c66
 ```
 
-> return 32 length lowercase string
+> always return 32 length lowercase string
 
 return same value like `md5sum`
 
@@ -55,7 +54,5 @@ License
 [travis-url]: https://travis-ci.org/chunpu/min-md5
 [coveralls-image]: https://img.shields.io/coveralls/chunpu/min-md5/gh-pages.svg?style=flat-square
 [coveralls-url]: https://coveralls.io/r/chunpu/min-md5
-[gittip-image]: https://img.shields.io/gittip/chunpu.svg?style=flat-square
-[gittip-url]: https://www.gittip.com/chunpu/
 [license-image]: http://img.shields.io/npm/l/min-md5.svg?style=flat-square
 [license-url]: #
