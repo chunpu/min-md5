@@ -5,5 +5,6 @@ branches:
 env:
   global:
   - SAUCE_USERNAME: chunpu2
+  - secure: YFVtN/8fIx+1lt6DWXfjkcGZE0l6I1BAaVqTVNF5l2Fa3LBqVxe1LNWvh/ivgH29gg0tzyqTieZ03VmAQKKTphSiab4hjsW5RrKky7GTiNaXWL1JynPC99Ft5urcMvrozbepEErZJi/8gxyjBP8KLnad7hXbg3+Q8+jhCvzaxucuUL9SGriWjsQTeOC/WNpIReBpfQ5N7VemuNxiMO4hkW0vbi/QmNbO1c/ORR9eNPgHF5xmeHBcOPdkA5iLEsyeHD1e0bBik0gwx80Yo6swIyisaTzCsMGzg5OX9f/FsE7FrO6K4AkhGkIPDhYPIiJny1qVXXOFAJiADd1OjPEReS9nszPV7ibi4l8QlH8fWnOLsqCFuMyXGXlDSnZ+9aXt7+0UbQVKlBn75VEaE6g8w7E/I33YbD5z96nk9Mg/qQnWzE4GGeGC4uEvXunY+3S9HGkcPubwKKFZU3PvS2esaEoAHvYVB7j6/7xn6hP00RtVnRnzAeAMMBIE/Y9FBMozoBGzol+tV7gAQr14xeGv/rF51n6M9SFE3b3tWuWtvZoLk06jjjNtliO3ftfflteubqvH5gpGfj0WdywAaBMySW9GTEzKQpiJUJ5QdK6i6GegVLdQgYsNciHvc9fSZ+/7GsKt90ERalF1gsnX7DNnVO/GrpcuI6QtUM2Tk7jstzs=
 script: npm run test-travis
 after_script: npm install coveralls@2.10.0 && cat ./coverage/lcov.info | coveralls
